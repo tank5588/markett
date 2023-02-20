@@ -76,9 +76,11 @@ export const incrementIfOdd =
   (amount: number): AppThunk =>
   (dispatch, getState) => {
     const currentValue = selectCount(getState());
-    if (currentValue % 2 === 1) {
-      dispatch(incrementByAmount(amount));
-    }
+    // if (currentValue % 2 === 1) {
+    //   dispatch(incrementByAmount(amount));
+    // }
+      dispatch(incrementByAmount(currentValue));
+
   };
 
 export default counterSlice.reducer;
