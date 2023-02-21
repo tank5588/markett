@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="180a2380-56b0-406f-89dc-d16755115331" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/counter/Counter.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,17 @@
       <option name="presentableId" value="Default" />
       <updated>1676852565826</updated>
       <workItem from="1676852568564" duration="1666000" />
-      <workItem from="1676957946392" duration="730000" />
+      <workItem from="1676957946392" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="829" y="414" key="Github.ShareDialog" timestamp="1676958988116">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="829" y="414" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1676958988116" />
   </component>
 </project>
