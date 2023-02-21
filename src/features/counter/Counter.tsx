@@ -6,10 +6,11 @@ import {
   increment,
   incrementByAmount,
   incrementAsync,
-  incrementIfOdd,
+  doubleUpCounter,
   selectCount,
 } from './counterSlice';
 import styles from './Counter.module.css';
+import {AppThunk} from "../../app/store";
 
 export function Counter() {
   const count = useAppSelector(selectCount);
@@ -58,7 +59,8 @@ export function Counter() {
         </button>
         <button
           className={styles.button}
-          onClick={() => dispatch(incrementIfOdd(incrementValue))}
+          onClick={  () => dispatch(doubleUpCounter(incrementValue))}
+          // onChange={(e) => setIncrementAmount(e.target.value)}
         >
           Double up
         </button>
